@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome, {{ current_user.username }}!</h2>
+<a href="{{ url_for('exam.test_window') }}" style="font-size: 20px; font-weight: bold;">START NEW EXAM</a>
+
+<h3>Your Past Results</h3>
+<table border="1">
+    <tr>
+        <th>Attempt ID</th>
+        <th>Score</th>
+    </tr>
+    {% for res in history %}
+    <tr>
+        <td>{{ res.id }}</td>
+        <td>{{ res.score }} / {{ res.total_questions }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
