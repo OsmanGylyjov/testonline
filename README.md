@@ -1,2 +1,2 @@
 # testonline
-a web app that helps you check your knowledge 
+a web app that helps you check your knowledge and skills
