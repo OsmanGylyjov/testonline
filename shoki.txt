@@ -1,0 +1,4 @@
+-Role: UI/UX Designer
+-Strengths: Creative design, attention to details, CSS, Python basic, Advanced English
+-What I want to learn: Team collaboration in Git and project styling
+-Favorite progrsmming language: Python
